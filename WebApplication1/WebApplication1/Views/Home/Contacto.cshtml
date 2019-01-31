@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Contactanos";
+}
+<html>
+<head>    
+</head>
+<body>
+    <center>
+    <div>
+        <table >
+            <tr>
+                <td>
+                    <div>
+                        <font color="darkcyan">
+                            <h2>@ViewData["Title"]</h2>
+                        </font>
+                            <i>
+                                <h5>@ViewData["Message"]</h5>
+                            </i>
+                    </div>
+                    <div>
+                        <font color="darkcyan"><label>NOMBRE</label><br /></font>
+                        <input type="text" size="78" placeholder="Escribe tu Nombre Completo" />
+                        <br />
+                    </div>
+                    <div>
+                        <font color="darkcyan"><label>E-MAIL</label><br /></font>
+                        <input type="text" size="78" placeholder="Escribe tu E-mail" />
+                    </div>
+                    <div style="width:100px">
+                        <font color="darkcyan"><label>ASUNTO</label><br /></font>
+                        <input type="text" size="78" placeholder="Escribe el Asunto del contacto" />
+                    </div>
+                    <div style="width=60px">
+                        <br />
+                        <textarea rows="10" cols="80" placeholder="Escriba su comentario..."></textarea>
+                    </div>
+                    <div style="width:60px">
+                        <h4>
+                            <font color="white">
+                                <input type="submit" name="btnEnviarContacto" value="Enviar" style="background-color:darkcyan">
+                            </font>
+                        </h4>
+                    </div>
+                </td>
+                <td>
+
+                    <img src="~/images/modulo-redes-sociales.png" style="margin-left:50px" />
+                </td>                
+            </tr>
+        </table>    
+       
+    </div></center>
+</body></html>
